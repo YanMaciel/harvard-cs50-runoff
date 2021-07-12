@@ -43,22 +43,48 @@ In this exercise, we needed to implement the 6 functions below listed to emulate
 
     void eliminate(int min);
   
-  
-  
-
 # Usage
 To use and test this program, you will need [CS 50 Library](https://cs50.readthedocs.io/libraries/cs50/c/). Copy this repository and through the command line, enter the program's folder and run the following command to compile:
 
-$ make caesar
+$ make runoff
 
-The numerical key to encrypt must be an integer.
+Then you run the program in the command-line as bellow:
 
-./caesar <numerical key>
+    ./runoff <candidate 1> <candidate 2> <candidate 3> ... <candidate n>
+    
+Example:
 
-The program will ask for a plaintext, which will be spilled back to you using the numeric key you inserted in the previous command as a ciphertext.
+    ./runoff Alice Bob Charlie
+    
+ Then the program will ask for the number of voters in the election. The number must to be an integer. For example:
+ 
+    Number of voters: 5
 
-  > Plaintext: -text to encrypt-
-  
-  > Ciphertext: -returns ciphertext using the key you provided-
-  
+Then it will ask you to rank (from 1 to 3) the votes of each person voting (number of voters above). Example:
+
+    Rank 1: Alice
+    Rank 2: Charlie
+    Rank 3: Bob
+    
+    Rank 1: Alice
+    Rank 2: Charlie
+    Rank 3: Bob
+    
+    Rank 1: Bob
+    Rank 2: Charlie
+    Rank 3: Alice
+
+    Rank 1: Bob
+    Rank 2: Charlie
+    Rank 3: Alice
+
+    Rank 1: Charlie
+    Rank 2: Alice
+    Rank 3: Bob
+    
+And lastly it will prompt the winner:
+    
+    Alice
+
+    
   
