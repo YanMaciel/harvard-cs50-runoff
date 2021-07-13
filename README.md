@@ -5,7 +5,7 @@ It is not reasonable to access a solution to some assessement prior to (re-)subm
 
 The essence of all work that you submit to the CS50 course **must be your own**. 
 
-# Runoff
+# CS50's Runoff
 Not familiar with the term Runoff Election?
 
 In an instant runoff election, voters can rank as many candidates as they wish. If any candidate has a majority (more than 50%) of the first preference votes, that candidate is declared the winner of the election.
